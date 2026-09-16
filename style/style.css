@@ -1,0 +1,112 @@
+body{
+    background: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: blue;
+    font-size: 14px;
+}
+a{
+    color: darkblue;
+}
+h1{
+    color: green;
+    font-size: 20px;
+}
+#page-header{
+
+    background-color: pink;
+
+    margin: 20px;
+
+    border: 6px yellowgreen double;
+
+    padding: 20px;
+
+}
+#main-header-size{
+    font-size: 40px;
+    margin:20px;
+    padding: 20px;
+
+}
+
+ul{
+    border: 3px blue dashed;
+}
+img {
+    height: 200px;
+    width: 400px;
+}
+strong{
+    color: rgb(226, 43, 192);
+}
+#most-favorite-food{
+    color: brown;
+}
+#traditional{
+    color: pink;
+    background-color: lightblue;
+}
+#non-traditional-for-me{
+    color: blueviolet;
+    background-color: lightgreen;
+}
+#headers{
+    font-style: italic;
+
+}
+#fav-thing-header{
+    border:  3px rgb(255, 94, 0) dashed;
+    display: inline;
+
+    
+
+}
+.favorite-section{
+    background-color: lightgray;
+    margin:10px;
+    margin-bottom: 10px;
+    border: 6px darkgreen double;
+    padding:20px;
+
+
+}
+
+.main-header{
+    background-color: pink;
+    margin:20px;
+    margin-bottom: 10px;
+    border: 6px yellowgreen double;
+    padding:20px;
+
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background: gray;
+    width: 200px;
+}
+tr:nth-child(even){
+    background:  lightblue;
+}
+tr:nth-child(odd){
+    background:  lightpink;}
+.fav-image{
+    width: 400px;
+
+    height: 200px;
+
+    border-radius: 20px;
+
+}
+.food-container{
+    display: flex;
+    gap: 20px;
+}
+.food-container div{
+    flex: 1;
+}
